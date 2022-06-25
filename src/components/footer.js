@@ -47,7 +47,7 @@ function Footer() {
           {/* {description} */}
 
           <Stack direction="row" spacing={4} justifyContent="center"
-  alignItems= "center">
+              alignItems= "center">
             <Item>
               <a href="mailto:elizabethyoannie@outlook.com"> Email </a>
             </Item>
