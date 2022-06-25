@@ -21,7 +21,7 @@ function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://mui.com/">
-        porfolio
+        eli-codes
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -34,7 +34,7 @@ function Footer() {
     <Box component="footer" sx={{ bgcolor: "background.paper", py: 4 }}>
       <Container maxWidth="lg">
         <Typography variant="h6" align="center" gutterBottom>
-          {/* {title} */} My Portfolio
+          {/* {title} */} 
         </Typography>
         <Typography
           variant="subtitle1"
