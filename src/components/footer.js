@@ -48,9 +48,7 @@ function Footer() {
 
           <Stack direction="row" spacing={4} justifyContent="center"
               alignItems= "center">
-            <Item>
-              <a href="mailto:elizabethyoannie@outlook.com"> Email </a>
-            </Item>
+           
             <Item>
               <a href="https://www.linkedin.com/in/elizabeth-rodriguez-32b681209">
                 LinkedIn
@@ -60,11 +58,14 @@ function Footer() {
               <a href="https://github.com/Eli-coding">github</a>
             </Item>
             <Item>
+              <a href="https://www.pinterest.com/yoa2098/_saved/">pinterest </a>
+            </Item>
+            {/* <Item>
               {" "}
               <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:50a64d30-a22b-3eac-b1a1-a8693387044d">
                 Resume
               </a>
-            </Item>
+            </Item> */}
           </Stack>
         </Typography>
       </Container>
