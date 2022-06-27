@@ -1,10 +1,13 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Aboutme from './aboutme';
+import * as React from "react";
+import PropTypes from "prop-types";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Aboutme from "./aboutme";
+import ContactMe from "./contactme";
+import Portfolio from "./portfolio";
+import Resume from "./resume";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -35,7 +38,7 @@ TabPanel.propTypes = {
 function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
+    "aria-controls": `simple-tabpanel-${index}`,
   };
 }
 
@@ -47,9 +50,13 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+    <Box sx={{ width: "100%" }}>
+      <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          aria-label="basic tabs example"
+        >
           <Tab label="About me" {...a11yProps(0)} />
           <Tab label="Portfolio" {...a11yProps(1)} />
           <Tab label="Contact" {...a11yProps(2)} />
@@ -57,16 +64,16 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <Aboutme></Aboutme>
+        <Aboutme />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        2
+        <Portfolio />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        3
+        <ContactMe />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        4
+        <Resume/>
       </TabPanel>
     </Box>
   );

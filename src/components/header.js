@@ -7,7 +7,7 @@ function Header (props){
 
 <header className='flex-row space-between px-1'>
 
-<img src= {Banner} alt= 'banner'></img>
+<img src= {Banner} alt= 'banner' height="300" width="100%"></img>
 
 
 
