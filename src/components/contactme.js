@@ -1,6 +1,9 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+
+// import { validateEmail } from '../utils/helpers';
 
 export default function ContactMe() {
   return (
@@ -9,41 +12,43 @@ export default function ContactMe() {
       sx={{
         '& .MuiTextField-root': { m: 1, width: '25ch' },
       }}
-      noValidate
+      Validate
       autoComplete="off"
     >
       
       <div>
         <TextField
-          required
+          required true 
           id="outlined-required"
-          label="Required"
-          defaultValue="First Name"
+          label="First Name"
+          defaultValue=""
         />
         <TextField
-          required
+          required true
           id="outlined-required"
-          label="Required"
-          defaultValue="Last Name"
+          label="Last name"
+          defaultValue=""
         />
           <TextField
-          required
+          required true
           id="outlined-required"
-          label="Required"
-          defaultValue="Email"
+          label="Email"
+          defaultValue=""
         />
         </div> 
        
         <div>
          <TextField
+         required true
           id="outlined-multiline-static"
-          label="Multiline"
+          label="Type message"
           multiline
           rows={4}
-          defaultValue="Type message"
+          defaultValue=""
         />
        
       </div>
+      <Button variant="contained">submit</Button>
     </Box>
   );
         
