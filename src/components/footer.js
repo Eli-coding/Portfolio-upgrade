@@ -56,7 +56,7 @@ function Footer() {
           
               <a href="https://github.com/Eli-coding">github</a>
           
-              <a href="https://www.pinterest.com/yoa2098/_saved/">pinterest </a>
+              <a href= "mailto:elizabethyoannie@outlook.com"> Email </a>
       
           </Stack>
         </Typography>
