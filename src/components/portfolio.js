@@ -2,6 +2,9 @@ import React from "react";
 import Project from "./project";
 import cummulus from "../assets/cummulus chat.png";
 import Planner from "../assets/dayplanner.png";
+import notePad from "../assets/notepad.png";
+import texteditor from "../assets/texteditor.png"
+import hairtours from "../assets/hairtours.png"
 import { Stack } from "@mui/material";
 
 function Portfolio() {
@@ -113,7 +116,7 @@ function Portfolio() {
         <div class="card-body">
           <h3 class="card-title">Note-Pad</h3>
           <div>
-            {/* <img src={profilehtml} alt="me" height="200" width="200" /> */}
+             <img src={notePad} alt="me" height="200" width="300" /> 
           </div>
           <Stack
             direction="row"
@@ -142,7 +145,7 @@ function Portfolio() {
         <div class="card-body">
           <h3 class="card-title">Text editor</h3>
           <div>
-            {/* <img src={profilehtml} alt="me" height="200" width="200" /> */}
+             <img src={texteditor} alt="me" height="200" width="300" /> 
           </div>
 
           <Stack
@@ -164,35 +167,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div class="card">
-        {/* <img src="https://user-images.githubusercontent.com/80432031/149646105-49ddc354-6ed8-4f72-a10a-8cbfdaeff5f8.png"
-                        class="card-img-top" alt="planner"> */}
-        <div class="card-body">
-          <h3 class="card-title">Employee tracker</h3>
-          <div>
-            {/* <img src={profilehtml} alt="me" height="200" width="200" /> */}
-          </div>
-          <Stack
-            direction="row"
-            spacing={4}
-            justifyContent="center"
-            alignItems="center"
-          >
-            <a
-              href="https://github.com/Eli-coding/team-profile-generator"
-              class="btn btn-info"
-            >
-              Deployed
-            </a>
-            <a
-              href="https://github.com/Eli-coding/team-profile-generator/blob/main/pageBones.html"
-              class="btn btn-info"
-            >
-              Github Repo
-            </a>
-          </Stack>
-        </div>
-      </div>
+      
 
       <div class="card">
         {/* <img src="https://user-images.githubusercontent.com/80432031/156679972-2c173845-a36f-4544-b337-2cabb82bd1fb.png"
@@ -201,7 +176,7 @@ function Portfolio() {
         <div class="card-body">
           <h3 class="card-title">Hair Tours</h3>
           <div>
-            {/* <img src={profilehtml} alt="me" height="200" width="200" /> */}
+             <img src={hairtours} alt="me" height="200" width="300" /> 
           </div>
 
           <Stack
