@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio-upgrade/static/css/main.073c9b0a.css",
-    "main.js": "/Portfolio-upgrade/static/js/main.256a6928.js",
+    "main.js": "/Portfolio-upgrade/static/js/main.9ddf5b21.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-upgrade/static/js/787.1ed0c42c.chunk.js",
+    "static/media/texteditor.png": "/Portfolio-upgrade/static/media/texteditor.fa2b84a6ad275d899612.png",
+    "static/media/notepad.png": "/Portfolio-upgrade/static/media/notepad.82cb5b15f6f47cf5e0e2.png",
+    "static/media/cummulus chat.png": "/Portfolio-upgrade/static/media/cummulus chat.3e3f5defa1656d2f0bd2.png",
     "static/media/portfolioBanner.png": "/Portfolio-upgrade/static/media/portfolioBanner.76faa8df94f9677fe3a8.png",
+    "static/media/hairtours.png": "/Portfolio-upgrade/static/media/hairtours.a6734985ef869929dd59.png",
     "static/media/profilehtml.jpg": "/Portfolio-upgrade/static/media/profilehtml.040ae396bfafe873953a.jpg",
+    "static/media/dayplanner.png": "/Portfolio-upgrade/static/media/dayplanner.c3e4e51213e739a2c4f2.png",
     "index.html": "/Portfolio-upgrade/index.html",
     "main.073c9b0a.css.map": "/Portfolio-upgrade/static/css/main.073c9b0a.css.map",
-    "main.256a6928.js.map": "/Portfolio-upgrade/static/js/main.256a6928.js.map",
+    "main.9ddf5b21.js.map": "/Portfolio-upgrade/static/js/main.9ddf5b21.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-upgrade/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.256a6928.js"
+    "static/js/main.9ddf5b21.js"
   ]
 }
